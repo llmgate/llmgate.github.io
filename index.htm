@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLM Gate: A Gateway Service for Your LLM Applications</title>
+    <title>LLMGate: Test and Ship LLM Apps faster</title>
     <link rel="stylesheet" href="style.css">
     <meta property="og:title" content="LLM Gate: A Gateway Service for Your LLM Applications">
     <meta property="og:description" content="A gateway service for your LLM applications">
@@ -12,40 +12,86 @@
     <meta name="twitter:card" content="https://llmgate.github.io/assets/thinking.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="LLM Gate: A gateway service for your LLM applications">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            /* background-color: #f8f9fa; */
+        }
+
+        .logoText {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header-buttons a {
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .header-buttons .github {
+            background-color: #333;
+        }
+
+        .header-buttons .reach-out {
+            background-color: #007bff;
+        }
+
+        .header-buttons a img {
+            height: 20px;
+            width: 20px;
+        }
+    </style>
 </head>
 <body>
 
 <header>
     <div class="logoText">LLM GATE</div>
+    <div class="header-buttons">
+        <a href="https://github.com/llmgate/llmgate" class="github" target="_blank">
+            Github
+        </a>
+        <a href="https://forms.gle/VmioXUmm8FgoWnR37" class="reach-out" target="_blank">
+            Schedule Demo
+        </a>
+    </div>
 </header>
 
 <section id="thinking">
-    <img src="assets/thinking.png" alt="Middleman for your LLMs" class="thinkingImage">
     <div>
-        <h4>What's this?</h4>
+        <h3>What is LLMGate?</h3>
+        <p>Infra and Tools to test and ship LLM apps faster.</p>
+        <h5>Why</h5>
         <p>
-            I spent 3 years at Snap building a proxy for 3D Bitmojis. (Largest GPU customer of AWS serving billions of daily requests)
+            I spent 3 years at Snap building infra and testing tools for 3D Bitmojis. (Largest GPU customer of AWS serving billions of daily requests)
+            Now I experimenting infra and tools to test and ship LLM apps faster.
         </p>
-        <p>
-            Now I exploring building a <u>middleman for your LLMs</u> to ship LLM apps faster.
-        </p>
-        <p>
-            <a href='https://www.linkedin.com/in/rushijash/'>My LinkedIn</a>
-        </p>
-        <h4>What it can do now?</h4>
-        <p>
-            Currently, LLMGate is an open-source proxy for using LLMs like OpenAI, Gemini, and also to mock LLM requests. It accepts OpenAI format requests, enabling easy switching between providers. Ideal for developers during development and testing.
-        </p>
-        <p>
-            Github: <a href="https://github.com/llmgate/llmgate">https://github.com/llmgate/llmgate</a>
-        </p>
-        <h4>Interested?</h4>
-        <p>
-            If you use LLMs or looking to integrate LLMs in your system, I want to understand how I can make it better for you. Reach out <a href="https://forms.gle/VmioXUmm8FgoWnR37">here</a>.
-        </p>
+        <h3>Features</h3>
+        <h4>Virtual Keys</h4>
+        <p>Call OpenAI, Gemini, Mock using a single API Key and in OpenAI request/response format.</p>
+        <p>Ability to create virtual keys for your team members and allocate budget across all LLM Providers.</p>
+        <video class="virtualKeyImage" src="assets/virtual_key.mp4" autoplay loop muted playsinline></video>
+        <h4>Prompt Testing</h4>
+        <p>Copy your prompt and test its performance across LLM providers and audience groups right from Visual Studio.</p>
+        <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Talked to many devs who hate prompt testing.<br><br>Introducing LLMGate for <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a>. Copy your prompt and test its performance across LLM providers and audience groups right from your IDE.<br><br>Never ship a bad prompt again: <a href="https://t.co/MPJJ75LycM">https://t.co/MPJJ75LycM</a> <a href="https://t.co/mwVwbuwqZ1">pic.twitter.com/mwVwbuwqZ1</a></p>&mdash; Rushi Jash (@rushi_jash) <a href="https://twitter.com/rushi_jash/status/1816245205894586455?ref_src=twsrc%5Etfw">July 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </section>
 <section>
+    <br/><br/><br/><br/>
     <p>
         Interested in Investing? Reach out <a href="https://forms.gle/AoDETE7quQSBBy1q8">here</a>.
     </p>
