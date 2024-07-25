@@ -38,6 +38,15 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+.logo-div {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 30px;
+}
+
 .logoText {
     font-size: 1.5rem;
     font-weight: bold;
