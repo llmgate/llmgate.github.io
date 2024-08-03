@@ -4,101 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LLMGate: Test and Ship LLM Apps faster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="assets/logo.png"/>
     <meta property="og:title" content="LLM Gate: Infra and Tooling to test and ship LLM apps faster">
     <meta property="og:description" content="Infra and Tooling to test and ship LLM apps faster">
     <meta property="og:url" content="https://llmgate.github.io">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="LLM Gate: Infra and Tooling to test and ship LLM apps faster">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            /* background-color: #f8f9fa; */
-        }
-
-        .logoText {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .header-buttons {
-            display: flex;
-            gap: 10px;
-        }
-
-        .header-buttons a {
-            display: inline-block;
-            padding: 10px;
-            border-radius: 5px;
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .header-buttons .github {
-            background-color: #333;
-        }
-
-        .header-buttons .reach-out {
-            background-color: #007bff;
-        }
-
-        .header-buttons a img {
-            height: 20px;
-            width: 20px;
-        }
-    </style>
 </head>
-<body>
+<body class="pixel-bg">
+    <div class="container">
+        <header class="pixel-border">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="LLMGate Logo" class="logo">
+                <h1 class="site-title">LLMGate</h1>
+            </div>
+            <nav>
+                <a href="https://github.com/llmgate" class="btn pixel-border" target="_blank">GitHub</a>
+                <a href="https://forms.gle/VmioXUmm8FgoWnR37" class="btn pixel-border" target="_blank">Schedule Demo</a>
+            </nav>
+        </header>
 
-<header>
-    <div class="logo-div">
-        <img class="logo" src="assets/logo.png" />
-        <div class="logoText">LLM GATE</div>
-    </div>
-    <div class="header-buttons">
-        <a href="https://github.com/llmgate/llmgate" class="github" target="_blank">
-            Github
-        </a>
-        <a href="https://forms.gle/VmioXUmm8FgoWnR37" class="reach-out" target="_blank">
-            Schedule Demo
-        </a>
-    </div>
-</header>
+        <main>
+            <section class="hero pixel-border">
+                <h2>Test and Ship LLM Apps Faster</h2>
+                <p>Infra and Tooling for the next generation of LLM Agent Applications</p>
+            </section>
 
-<section id="thinking">
-    <div>
-        <h3>What is LLMGate?</h3>
-        <p>Infra and Tooling to test and ship LLM apps faster.</p>
-        <h5>Why</h5>
-        <p>
-            I spent over three years at Snap building infra for 3D Bitmojis, testing tools for internal teams, and developing tools for third-party developers, with experience doing similar at a Series C startup. 
-            Now, I am focused on building infra and tools to test and ship your LLM applications faster.
-        </p>
-        <h3>Features</h3>
-        <h4>Virtual Keys</h4>
-        <p>Call OpenAI, Gemini, Mock using a single API Key and in OpenAI request/response format.</p>
-        <p>Ability to create virtual keys for your team members and allocate budget across all LLM Providers.</p>
-        <video class="virtualKeyImage" src="assets/virtual_key.mp4" autoplay loop muted playsinline></video>
-        <h4>VS Code Prompt Testing</h4>
-        <a href="https://marketplace.visualstudio.com/items?itemName=LLMGate.llmgate">Install the Extension</a>
-        <p>Request API Key: <a href="https://forms.gle/VmioXUmm8FgoWnR37" class="reach-out" target="_blank">here</a></p>
-        <p>Copy your prompt and test its performance across LLM providers and audience groups right from Visual Studio.</p>
-        <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Talked to many devs who hate prompt testing.<br><br>Introducing LLMGate for <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a>. Copy your prompt and test its performance across LLM providers and audience groups right from your IDE.<br><br>Never ship a bad prompt again: <a href="https://t.co/MPJJ75LycM">https://t.co/MPJJ75LycM</a> <a href="https://t.co/mwVwbuwqZ1">pic.twitter.com/mwVwbuwqZ1</a></p>&mdash; Rushi Jash (@rushi_jash) <a href="https://twitter.com/rushi_jash/status/1816245205894586455?ref_src=twsrc%5Etfw">July 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <section class="features">
+                <div class="feature pixel-border">
+                    <h3>VS Code Extension</h3>
+                    <p>Streamline prompt engineering across multiple LLMs</p>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=LLMGate.llmgate" class="btn pixel-border">Install Extension</a>
+                </div>
+                <div class="feature pixel-border">
+                    <h3>Virtual Keys</h3>
+                    <p>Unified API for OpenAI, Gemini, and more</p>
+                    <a href="https://forms.gle/VmioXUmm8FgoWnR37" class="btn pixel-border">Request Demo</a>
+                </div>
+            </section>
+
+            <section class="timeline pixel-border">
+                <h3>LLMGate Experiments</h3>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>VS Code Extension Update</h4>                            
+                            <p>Talked with Developers and learned that they need more control over prompt testing.</p>
+                            <p>New update allow devs to use Playground to:</p>
+                            <p>- Test Prompt Performance, Cost, Latency on differnt LLM models</p>
+                            <p>- Create and Run Test Cases on it</p>
+                            <div style="position: relative; padding-bottom: 64.86486486486486%;  max-width: 400px;"><iframe src="https://www.loom.com/embed/ef2439b9fd3a44bcb386bfd838189af3?sid=63fcd0e2-087c-438c-bdff-fc2640e4e1cf" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=LLMGate.llmgate" class="btn pixel-border">Install Extension</a>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>VS Code Extension First Launch</h4>
+                            <p>Copy your prompt and test its performance across LLM providers and audience groups right from Visual Studio.</p>
+                            <blockquote class="twitter-tweet" data-media-max-width="400"><p lang="en" dir="ltr">Talked to many devs who hate prompt testing.<br><br>Introducing LLMGate for <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a>. Copy your prompt and test its performance across LLM providers and audience groups right from your IDE.<br><br>Never ship a bad prompt again: <a href="https://t.co/MPJJ75LycM">https://t.co/MPJJ75LycM</a> <a href="https://t.co/mwVwbuwqZ1">pic.twitter.com/mwVwbuwqZ1</a></p>&mdash; Rushi Jash (@rushi_jash) <a href="https://twitter.com/rushi_jash/status/1816245205894586455?ref_src=twsrc%5Etfw">July 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>LLMGate Virtual Keys</h4>
+                            <p>Call OpenAI, Gemini, Mock using a single API Key and in OpenAI request/response format.</p>
+                            <video style="padding-top: 10px; max-width: 400px; margin: 0 auto 1rem;" src="assets/virtual_key.mp4" autoplay loop muted playsinline></video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about pixel-border">
+                <h3>Background</h3>
+                <p>I spent over three years at Snap building infra for 3D Bitmojis, testing tools for internal teams, and developing tools for third-party developers, with experience doing similar at a Series C startup.</p>
+                <p>Now, I am focused on building infra and tools so you can test and ship LLM applications faster.</p>
+            </section>
+        </main>
+
+        <footer class="pixel-border">
+            <a class="link" href="https://forms.gle/AoDETE7quQSBBy1q8">Intersted in Investing?</a>
+        </footer>
     </div>
-</section>
-<section>
-    <br/><br/><br/><br/>
-    <p>
-        Interested in Investing? Reach out <a href="https://forms.gle/AoDETE7quQSBBy1q8">here</a>.
-    </p>
-</section>
+
+    <script>
+        // You can add any JavaScript here if needed
+    </script>
 </body>
 </html>
